@@ -1,15 +1,16 @@
 /* Logo */
 .logo-box {
-  width: 36px;
-  height: 36px;
+  width: 44px;
+  height: 44px;
   background-color: #ffffff;
   color: #4338ca;
-  font-weight: 700;
-  font-size: 1rem;
-  border-radius: 8px;
+  font-weight: 800;
+  font-size: 1.6rem;
+  border-radius: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
 /* Campos */
