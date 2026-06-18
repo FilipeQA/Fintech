@@ -7,7 +7,7 @@
 
     <script src="https://cdn.tailwindcss.com"></script>
 
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/custom.css">
 </head>
 <body class="min-h-screen flex">
     <!-- Screen Split -->
@@ -44,8 +44,52 @@
              </div>
         </div>     
         <!-- Lado direito (escuro) -->
-         <div class="w-full md:w-1/2 bg-gray-900">
-            direita
+         <div class="w-full md:w-1/2 bg-gray-900 flex items-center justify-center p-8">
+            <div class="w-full max-w-sm">
+
+                <!-- Titulo -->
+                <h2 class="text-2xl font-bold text-white mb-1">Bem-vindo de volta!</h2>
+                <p class="text-gray-400 text-sm mb-8">Faça login para acessar sua conta</p>
+
+                <!-- Campo email -->
+                 <div class="mb-4">
+                    <label class="block text-sm text-gray-300 mb-1">E-mail</label>
+                    <input type="email" placeholder="Fintech@fintech.com" class="campo-input w-full" /> 
+                 </div>
+                <!-- Campo senha  -->
+                <div class="mb-6">
+                    <label class="block text-sm text-gray-300 mb-1">Senha</label>
+                    <input type="password" placeholder="Digite sua senha" class="campo-input w-full" />
+                </div> 
+
+                <!-- Recuperar conta -->
+                 <div class="flex items-center justify-between text-sm mb-6">
+                    <label class="flex items-center gap-2 text-gray-400">
+                        <input type="checkbox" />
+                        Continuar logado
+                 </label>
+                 <a href="#" class="text-indigo-400">Recuperar conta</a>
+                 </div>
+
+                <!-- Botao Entrar -->
+                  <button class="botao-entrar w-full mb-4">Entrar</button>
+
+                <!-- divisor -->
+                <div class="flex items-center gap-3 mb-4">
+                    <hr class="flex-1 border-gray-700" />
+                    <span class="text-gray-500 text-xs">ou</span>
+                    <hr class="flex-1 border-gray-700" />
+                </div>
+
+                <!-- Botao Criar conta -->
+                <button class="botao-criar w-full">Criar conta</button>
+
+                <!-- Rodape -->
+                 <p class="text-center text-gray-600 text-xs mt-10">
+                    Projeto Fintech &copy; 2026 — Filipe de Queiroz Amado - RM567834    
+                 </p>           
+
+            </div>
          </div>
     </div>
 </body>
