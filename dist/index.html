@@ -10,22 +10,26 @@
     <link rel="stylesheet" href="./css/custom.css">
 </head>
 <body class="min-h-screen flex bg-gray-900">
+
     <!-- Screen Split -->
     <div class="w-full min-h-screen flex flex-col md:flex-row">
+
          <!-- Lado esquerdo (roxo) -->
         <div class="hidden md:flex md:w-1/2 bg-indigo-700 flex-col justify-center items-start p-16 text-white">
             
             <!-- Logo -->
             <div class="flex items-center gap-3 mb-10">
-            <div class="logo-box">F</div>
-            <span class="text-2xl font-bold">Fintech</span>
-        </div>
+                <div class="logo-box">F</div>
+                <div>
+                    <p class="text-2xl font-bold leading-none">Fintech</p>
+                    <p class="text-indigo-200 text-sm">Sistema Financeiro</p>
+                </div>
+            </div>
         
             <!-- Titulo -->
             <h1 class="text-4xl font-bold leading-tight mb-4">
                 Gerencie suas finanças de forma simples e segura.
             </h1>
-            <p class="text-indigo-200 text-lg mb-10" >Sistema Financeiro</p>
 
             <!-- Cards beneficios -->
              <div class="space-y-3 w-full">
@@ -42,25 +46,31 @@
                     <span class="text-sm">Segurança em todos os acessos</span>
                     </div>    
              </div>
-        </div>     
+        </div>
+
         <!-- Lado direito (escuro) -->
          <div class="w-full md:w-1/2 bg-gray-900 flex items-center justify-center p-8 min-h-screen">
             <div class="w-full max-w-sm">
 
                 <!-- Logo mobile (lado direito, hideen no desktop) -->
                 <div class="flex items-center gap-2 mb-8 md:hidden">
-                     <div class="logo-box">F</div>
-                    <span class="text-xl font-bold text-white">Fintech</span>
+                    <div class="logo-box">F</div>
+                    <div>
+                        <p class="text-xl font-bold text-white">Fintech</p>
+                        <p class="text-indigo-200 text-sm">Sistema Financeiro</p>
+                    </div>
                 </div>
+
                 <!-- Titulo -->
                 <h2 class="text-2xl font-bold text-white mb-1">Bem-vindo de volta!</h2>
                 <p class="text-gray-400 text-sm mb-8">Faça login para acessar sua conta</p>
 
                 <!-- Campo email -->
-                 <div class="mb-4">
+                <div class="mb-4">
                     <label class="block text-sm text-gray-300 mb-1">E-mail</label>
                     <input type="email" placeholder="Fintech@fintech.com" class="campo-input w-full" /> 
-                 </div>
+                </div>
+
                 <!-- Campo senha  -->
                 <div class="mb-6">
                     <label class="block text-sm text-gray-300 mb-1">Senha</label>
@@ -68,13 +78,13 @@
                 </div> 
 
                 <!-- Recuperar conta -->
-                 <div class="flex items-center justify-between text-sm mb-6">
+                <div class="flex items-center justify-between text-sm mb-6">
                     <label class="flex items-center gap-2 text-gray-400">
                         <input type="checkbox" />
                         Continuar logado
-                 </label>
-                 <a href="#" class="text-indigo-400">Recuperar conta</a>
-                 </div>
+                    </label>
+                <a href="#" class="text-indigo-400">Recuperar conta</a>
+                </div>
 
                 <!-- Botao Entrar -->
                   <button class="botao-entrar w-full mb-4">Entrar</button>
@@ -90,9 +100,9 @@
                 <button class="botao-criar w-full">Criar conta</button>
 
                 <!-- Rodape -->
-                 <p class="text-center text-gray-600 text-xs mt-10">
+                <p class="text-center text-gray-600 text-xs mt-10">
                     Projeto Fintech &copy; 2026 — Filipe de Queiroz Amado - RM567834    
-                 </p>           
+                </p>           
 
             </div>
          </div>
