@@ -9,11 +9,17 @@
 
     <link rel="stylesheet" href="./css/style.css">
 </head>
-<body>
-    
-    <div class="w-full min-h-screen flex flex-col md:flexrow">
-        
+<body class="min-h-screen flex">
+    <!-- Screen Split -->
+    <div class="w-full min-h-screen flex flex-col md:flex-row">
+         <!-- Lado esquerdo (roxo) -->
+        <div class="hidden md:flex md:w-1/2 bg-indigo-700">
+            esquerda
+        </div>
+        <!-- Lado direito (escuro) -->
+         <div class="w-full md:w-1/2 bg-gray-900">
+            direita
+         </div>
     </div>
-
 </body>
 </html>
